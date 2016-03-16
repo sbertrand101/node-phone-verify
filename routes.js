@@ -72,7 +72,7 @@ module.exports = (router) => {
       phoneNumber: form.phoneNumber
     });
     if (!entry) {
-      return this.render("/verify");
+      return this.redirect("/verify");
     }
     debug("Status code has been confirmed");
     entry.verifiedTime = new Date();
