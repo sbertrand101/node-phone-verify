@@ -7,6 +7,9 @@
     "start": "node index.js",
     "foreman": "nf start"
   },
+  "engines": {
+    "node":  "~4.2"
+  },
   "author": "avbel",
   "license": "MIT",
   "dependencies": {
