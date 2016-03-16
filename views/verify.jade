@@ -1,7 +1,7 @@
 extends layout
 block body
-  form.pure-form(method="POST", action="/code")
+  form.pure-form(method="POST", action="/verify")
     fieldset
-      input(name="phoneNumber", type="tel", value="#{phoneNumber}", placeholder="Phone nubmer", required=true)
+      input(name="phoneNumber", type="tel", value="#{phoneNumber || ''}", placeholder="Phone number", required=true)
       input.button-primary.pure-button(type="submit", name="action", value="Call")
       input.button-primary.pure-button(type="submit", name="action", value="SMS")

@@ -1,5 +1,5 @@
-*.zip
- web-sms-chat-frontend
- .env
+ .*
+ state.json
+
 
 
