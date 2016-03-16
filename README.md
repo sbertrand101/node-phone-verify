@@ -23,7 +23,7 @@ Uses the:
 #### Env Variables Required To Run
 * ```CATAPULT_USER_ID```
 * ```CATAPULT_API_TOKEN```
-* ```CATAPULT_API_SECRET``
+* ```CATAPULT_API_SECRET```
 
 ## Demo
 ![Screen Shot](/readme_images/screenshot.png?raw=true)
