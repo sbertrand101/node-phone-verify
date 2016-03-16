@@ -14,5 +14,6 @@
     "CATAPULT_API_SECRET": {
       "description": "Your Catapult Api Secret"
     }
-  }
+  },
+  "addons": ["mongolab"]
 }
