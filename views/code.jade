@@ -1,0 +1,7 @@
+extends layout
+block body
+  form.pure-form(method="POST", action="/code")
+    fieldset
+      input(name="code", type="number", placeholder="Confirm code", required=true)
+      input(name="phoneNumber", type="hidden", value="#{phoneNumber}")
+      input.button-primary.pure-button(type="submit", value="Confirm")

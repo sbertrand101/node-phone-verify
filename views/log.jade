@@ -1,0 +1,13 @@
+extends layout
+block body
+  h1.title Log
+  table.pure-table
+    thead
+      tr
+        th Phone Number
+        th Verified
+    tbody
+      each entry in entries
+        tr
+          td= entry.phoneNumber
+          td= moment(entry.verifiedTime).format("LLL")
