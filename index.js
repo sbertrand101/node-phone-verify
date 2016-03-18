@@ -34,7 +34,8 @@ function* getServicePhoneNumber() {
   if (state.servicePhoneNumber) {
     return state.servicePhoneNumber;
   }
-  let number = (yield catapult.AvailableNumber.searchLocal.bind(catapult.AvailableNumber).promise({ quantity: 1, city: "Cary", state: "NC" }))[0].number;
+  let searchResult = yield catapult.AvailableNumber.searchLocal.bind(catapult.AvailableNumber).promise({ quantity: 1, city: "Cary", state: "NC" });
+  let number = searchResult[0].number;
   yield catapult.PhoneNumber.create.bind(catapult.PhoneNumber).promise({ number: number });
   state.servicePhoneNumber = number;
   yield saveState();
