@@ -1,6 +1,6 @@
 # Phone Verication App
 
-<div align="center"> 
+<div> 
 <b>This application is outdated, but will be updated soon!</b><br><br>
 </div>
 
