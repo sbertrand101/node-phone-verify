@@ -1,5 +1,8 @@
 # Phone Verication App
 
+<div align="center"> 
+<b>This application is outdated, but will be updated soon!</b><br><br>
+
 This example app shows how you can use the Catapult API verify a phone number by sending to it a SMS or phone call with confirm code. 
 
 Uses the:
